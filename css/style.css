@@ -49,3 +49,9 @@ a{
 .javhead{
     background-color: rgb(223, 201, 9);
 }
+table,th,td{
+    border: 2px ridge red;
+}
+th,td{
+  padding-left: 25px;
+}
