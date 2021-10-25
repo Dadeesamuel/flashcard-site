@@ -26,7 +26,7 @@ window.location.href="argument.html";
 });
 
 $(".par").click(function(){
-window.location.href="parameter.html";
+window.location.href="paramter.html";
 });
 
 $(".ret").click(function(){
