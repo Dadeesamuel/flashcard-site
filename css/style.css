@@ -16,12 +16,36 @@ body{
 li{
     cursor: pointer;
 }
-:hover.jav{
+:hover.jav, :hover.syn, :hover.und{
     color: red;
 }
-:hover.ope{
+:hover.ope, :hover.attr, :hover.boo{
     color: rgb(102, 255, 0);
 }
+:hover.var, :hover.jqu, :hover.str{
+    color: rgb(248, 76, 99);
+}
+:hover.varName, :hover.com, :hover.chain{
+    color: rgb(255, 255, 255);
+}
+
+:hover.func, :hover.alt, :hover.ret{
+    color: rgb(96, 119, 224);
+}
+:hover.meth, :hover.null, :hover.par{
+    color: rgb(145, 34, 145);
+}
+:hover.arg, :hover.nan{
+    color: rgb(228, 187, 2);
+}
+
+
+
+
+
+
+
+
 p{
     text-indent: 10px;
     font-size: 20px;
