@@ -16,6 +16,15 @@
  <h1 class="text-center jumbotron" style="border-left: 35px ridge green; border-right: 35px ridge red;"> ARGUMENTS</h1><br>
 <h2 style="margin-left: 110px;">DISCRIPTION</h2>
  <p style="color: cornsilk; font-size: x-large;">The arguments object is a local variable available within all non-arrow functions. You can refer to a function's arguments inside that function by using its arguments object. It has entries for each argument the function was called with, with the first entry's index at 0.</p>
- <p>The arguments object is not an Array. It is similar, but lacks all Array properties except length. For example, it does not have the pop() method.</p>
+ <p style="color: cornsilk; font-size: x-large;">The arguments object is not an Array. It is similar, but lacks all Array properties except length. For example, it does not have the pop() method.<br>
+   <b class="text-danger">NOTE:</b> Function arguments are the real values passed to (and received by) the function.</p>
+   <h1  style="margin-left: 110px;">Arguments are Passed by Value</h1>
+    <p style="color: cornsilk; font-size: x-large;">The parameters, in a function call, are the function's arguments.</p>
+    
+<p style="color: cornsilk; font-size: x-large;">JavaScript arguments are passed by value: The function only gets to know the values, not the argument's locations.</p>
+    
+<p style="color: cornsilk; font-size: x-large;">If a function changes an argument's value, it does not change the parameter's original value.</p>
+    
+<p style="color: cornsilk; font-size: x-large;"> Changes to arguments are not visible (reflected) outside the function.</p>
 </body>
 </html>
