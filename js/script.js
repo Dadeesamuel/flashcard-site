@@ -80,9 +80,13 @@ $(".syn").click(function(){
 $("button").click(function(){
     window.location.href="index.html";
 });
-                                                                  
-
-
-
 
 });
+
+
+// clicking to view alert
+$(document).ready(function(){
+    $(".click").click(function(){
+        alert("This is an example of how alert works")
+    })
+})

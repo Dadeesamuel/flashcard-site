@@ -38,6 +38,9 @@ li{
 :hover.arg, :hover.nan{
     color: rgb(228, 187, 2);
 }
+.click{
+    cursor: pointer;
+}
 
 
 
