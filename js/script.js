@@ -90,3 +90,11 @@ $(document).ready(function(){
         alert("This is an example of how alert works")
     })
 })
+$(document).ready(function(){
+    $(".animate").click(function(){
+        let div= $(".text-center");
+        div.animate({left: '100px'},"slow").toggle();
+        div.animate({ fontSize: '3em'}, "slow").toggle();
+    
+    })
+})
